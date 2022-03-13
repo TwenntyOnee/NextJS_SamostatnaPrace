@@ -30,7 +30,7 @@ const Homepage = () => {
         </h1>
       </div>
       <div className="store flex  justify-center pt-14 bg-black">
-        <Image src={store} width="120px" height="40px"></Image>
+        <Image src={store} alt="Img1" width="120px" height="40px"></Image>
       </div>
       <div className="wrapper   bg-black w-full">
         <div
@@ -46,7 +46,11 @@ const Homepage = () => {
             height="90%"
             allow="autoplay; fullscreen"
           ></iframe>
-          <Image className=" xl:visible invisible" src={Img1}></Image>
+          <Image
+            alt="Img2"
+            className=" xl:visible invisible"
+            src={Img1}
+          ></Image>
         </div>
       </div>
       <div className="bg-black pt-32">
@@ -122,6 +126,7 @@ const Homepage = () => {
         <div className="w-full   flex">
           <Image
             src={Img2}
+            alt="Img3"
             layout="fill"
             objectFit="cover"
             width="1664px"
@@ -192,6 +197,7 @@ const Homepage = () => {
         <div className="w-full  flex">
           <Image
             src={Img4}
+            alt="Img4"
             layout="fill"
             objectFit="cover"
             width="1664px"
@@ -269,6 +275,7 @@ const Homepage = () => {
         ></div>
         <div className="w-full  flex">
           <Image
+            alt="Img"
             src={Img3}
             layout="fill"
             objectFit="cover"
@@ -345,6 +352,7 @@ const Homepage = () => {
         ></div>
         <div className="w-full flex">
           <Image
+            alt="Img"
             src={Img5}
             layout="fill"
             objectFit="cover"
