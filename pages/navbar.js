@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import Logo from "../Images/5e002ff58d0e1e24353aad96_logo-white-c.png";
 
@@ -13,11 +14,22 @@ export default function Navbar() {
     >
       <ul className="flex font-Basic pt-10 text-[16px] h5 items-center text-gray-300 justify-between">
         <div className="logo pl-6">
-          <Image src={Logo} height="24" width="68"></Image>
+          <Link href="/Homepage">
+            <Image
+              src={Logo}
+              className="cursor-pointer"
+              height="24"
+              width="68"
+            ></Image>
+          </Link>
         </div>
         <div className="pages md:flex hidden gap-10">
           <li className="hover">Using Play</li>
-          <li className="hover">Features</li>
+          <li className="hover">
+            <Link href="/Features">
+              <a>Features</a>
+            </Link>
+          </li>
           <li className="hover">News</li>
           <li className="hover">Support</li>
           <li className="hover">FAQ</li>
