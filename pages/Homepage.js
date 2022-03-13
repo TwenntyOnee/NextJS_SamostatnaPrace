@@ -70,7 +70,7 @@ const Homepage = () => {
               life.
             </h5>
 
-            <div className="button hover:scale-[103%] cursor-pointer transition-all duration-300 ease-in-out bg-[#17ffa6] mt-10 w-52 rounded-xl flex items-center justify-center font-medium opacity-75 h5 h-10">
+            <div className="button hover:scale-[103%] cursor-pointer  transition-all duration-300 ease-in-out bg-[#17ffa6] mt-10 w-52 rounded-xl flex items-center justify-center font-medium opacity-75 h5 h-10">
               See How It Works
             </div>
           </div>
